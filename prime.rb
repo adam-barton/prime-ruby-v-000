@@ -3,7 +3,7 @@ def prime?(num)
   num_array << (2...num)
 
   num_array.each do |n|
-  return false if num_array % n == 0 || num_array == -Float::INFINITY..0
+  return false if num_array % n == 0 
   end
     true 
     end
