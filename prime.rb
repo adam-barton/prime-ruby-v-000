@@ -1,7 +1,7 @@
 def prime?(num)
 
   (2...num).each do |n|
-  return false if num % n == 0 || num <= 1 / 0.0 
+  return false if num % n == 0  
   end
     true 
     end
