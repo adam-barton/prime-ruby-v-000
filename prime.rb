@@ -10,10 +10,5 @@ def prime?(num)
   end
   true 
 end
-    
   
-  
-  #  number_array.each? do |n|
-   #  n >= 1 && n % n == 0 && n % 1 == 0 
-    #end
  
